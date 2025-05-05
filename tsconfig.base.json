@@ -1,0 +1,27 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2017",
+    "module": "esnext",
+    "lib": ["es2020", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@rhino-portal/constants": ["libs/constants/src/index.ts"],
+      "@rhino-portal/constants/server": ["libs/constants/src/server.ts"],
+      "@rhino-portal/shared": ["libs/shared/src/index.ts"],
+      "@rhino-portal/shared/server": ["libs/shared/src/server.ts"],
+      "@rhino-portal/types": ["libs/types/src/index.ts"],
+      "@rhino-portal/types/server": ["libs/types/src/server.ts"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
